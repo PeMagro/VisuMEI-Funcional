@@ -1,0 +1,80 @@
+.Como_funcionaM_header{
+    position: relative;
+    width: 97%;
+    height: 15vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Como_funcionaM_logo_header{
+    position: relative;
+    width: 100%;
+    height: 9vh;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+.Como_funcionaM_nav_header{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #4E5262;
+    font-family: 'Roboto', sans-serif;
+}
+.Como_funcionaM_link_colorido{
+    position: relative;
+    width: 40%;
+    padding: 0 1vw 0 1vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Como_funcionaM_link_colorido a{
+    color: #0F3AE4;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.Como_funcionaM_link{
+    position: relative;
+    width: 35%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Como_funcionaM_link a{
+    color: #849CFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.Como_funcionaM_link a:hover{
+    color: #0F3AE4;
+}
+.Como_funcionaM_login{
+    position: relative;
+    width: 35%;
+    height: 6vh;
+    background-color: #849CFF;
+    text-align: center;
+    border-radius: 1.2vw;
+    margin-top: 4.9vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.Como_funcionaM_login a{
+    font-family: 'Inter',sans-serif;
+    line-height: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.Como_funcionaM_login:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: 0.6s all;
+}

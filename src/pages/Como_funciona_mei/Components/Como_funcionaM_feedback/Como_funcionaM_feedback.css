@@ -1,0 +1,45 @@
+.Como_funcionaM_feedback{
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 14vh;
+    padding-left: 4vw;
+}
+.Como_funcionaM_feedback_align{
+    position: relative;
+    width: 82%;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 8vh;
+    
+}
+.Como_funcionaM_feedback_titulo{
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #141313;
+}
+.Como_funcionaM_feedback_li{
+    color: #0F3AE4;
+    margin-left: 1.4vw;
+    margin-top: 2.5vh;
+    line-height: 30px;
+}
+.Como_funcionaM_feedback_li p{
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:  #545454;
+}
+
+.Como_funcionaM_feedback_img{
+    width: 38%;
+    height: 50vh;
+    
+}

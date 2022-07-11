@@ -1,0 +1,75 @@
+.Como_funcionaM_topo{
+    position: relative;
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 4vw;
+    margin-top: 30vh;
+}
+.Como_funcionaM_titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #010038;
+}
+.Como_funcionaM_text{
+    width: 85%;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #849CFF;
+    margin-top: 2vh;
+}
+.Como_funcionaM_topo_align{
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+.Como_funcionaM_topo_botao{
+    position: relative;
+    width: 60%;
+    height: 8vh;
+    background-color: #415DCC;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 1vw;
+    line-height: 20px;
+}
+.Como_funcionaM_topo_botao {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #F5F5F5;
+}
+.Como_funcionaM_topo_botao a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #F5F5F5;
+}
+.Como_funcionaM_text2{
+    position: relative;
+    width: 55%;
+    height: 8vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #415DCC;
+}
+
+.Como_funcionaM_text2 a {
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 20px;
+    color: #415DCC;
+}

@@ -1,0 +1,32 @@
+.homeMEI {
+    position: relative;
+    width: 100%;
+    height: 600vh;
+}
+
+.header-homeMEI {
+    position: relative;
+    width: 100%;
+    height: 79vh;
+    background-image: url('https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/dcd8cd37a6b00667c0118e6c14ca477b0693843f/homeMEI/bg-header.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-homeMEI {
+    position: relative;
+    width: 100%;
+    height: 490vh;
+    background-image: url('https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/dcd8cd37a6b00667c0118e6c14ca477b0693843f/homeMEI/bg-homeMEI2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-homeMEI {
+    position: relative;
+    width: 100%;
+    height: 44vh;
+    background-image: url('https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/dcd8cd37a6b00667c0118e6c14ca477b0693843f/homeMEI/bg-footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

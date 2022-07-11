@@ -1,0 +1,229 @@
+.home-classificacoes {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    margin-top: 64vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/***************
+    CONTEUDO
+***************/
+
+.home-classificacoes-conteudo {
+    position: relative;
+    width: 50%;
+    height: 70vh;
+}
+
+.home-classificacoes-conteudo-titulo {
+    position: relative;
+    width: 90%;
+    height: 10vh;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+}
+
+/****************
+    CARROSSEL
+****************/
+
+.home-classificacoes-conteudo-carrossel {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-classificacoes-conteudo-carrossel-esquerda,
+.home-classificacoes-conteudo-carrossel-direita {
+    position: relative;
+    width: 5%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-classificacoes-conteudo-carrossel-esquerda img {
+    width: 1.7vw;
+    height: 3.8vh;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.home-classificacoes-conteudo-carrossel-direita img {
+    width: 1.7vw;
+    height: 3.8vh;
+    cursor: pointer;
+}
+
+.home-classificacoes-conteudo-carrossel-container {
+    position: relative;
+    width: 82%;
+    height: 60vh;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.home-classificacoes-conteudo-carrossel-container::-webkit-scrollbar {
+    display: none;
+}
+
+/*************************
+    ESTRUTURA CARROSSEL
+*************************/
+
+.home-classificacoes-conteudo-carrossel-container-estrutura {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/dcd8cd37a6b00667c0118e6c14ca477b0693843f/home/carrossel-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+}
+
+/**********
+    TOPO
+**********/
+
+.home-carrossel-estrutura-topo {
+    position: relative;
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.home-carrossel-estrutura-topo img {
+    position: relative;
+    width: 7.8vw;
+    height: 16.7vh;
+}
+
+.home-carrossel-estrutura-topo div {
+    position: relative;
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home-carrossel-estrutura-topo-nome {
+    position: relative;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 28px;
+    color: #fff;
+}
+
+.home-carrossel-estrutura-topo-trabalho {
+    position: relative;
+    padding-top: 1vh;
+    font-weight: 500;
+    font-size: 1.30rem;
+    line-height: 23px;
+    color: #e8e8e8;
+}
+
+/************
+    BAIXO
+************/
+
+.home-carrossel-estrutura-baixo {
+    position: relative;
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.home-carrossel-estrutura-baixo-classificacao {
+    position: relative;
+    width: 78%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-classificacao-ptitulo {
+    position: relative;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 23px;
+    color: #fff;
+}
+
+.home-classificacao-quantidade {
+    position: relative;
+    padding-top: 1.2vh;
+    font-size: 1.1rem;
+    line-height: 23px;
+    color: #ffffff;
+}
+
+.home-carrossel-estrutura-baixo-classificacao img {
+    position: relative;
+    width: 7.5vw;
+    height: 4vh;
+}
+
+.home-carrossel-estrutura-baixo-descricao {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.home-carrossel-estrutura-baixo-descricao-titulo {
+    position: relative;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 23px;
+    color: #fff;
+}
+
+.home-carrossel-estrutura-baixo-descricao-mensagem {
+    position: relative;
+    width: 75%;
+    height: 15vh;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 22px;
+    color: #e8e8e8;
+}
+
+/**********
+    IMG
+**********/
+
+.home-classificacoes-img {
+    position: relative;
+    width: 30%;
+    height: 70vh;
+}

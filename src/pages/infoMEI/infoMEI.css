@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.PI-Body {
+    position: relative;
+    width: 100vw;
+    min-height: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.PI-Container {
+    position: relative;
+    width: 76vw;
+    min-height: 1px;
+}
+
+.PI-ProfileInfo, .PI-Publi, .PI-Contato, .PI-Feedback, .PI-NewFeedback {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    margin-top: 1vh;
+    background-color: #fff;
+
+    justify-content: space-around;
+}
+.PI-ProfileInfo{
+    margin: 10vh 0vh 15vh 0vh;
+}
+
+.PI-Profile-Container1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+.PI-Profile-Container2 {
+    width: 100%;
+    clear: left;
+}
+
+.PI-Profile-Bloco1 {
+    position: relative;
+    width: 60%;
+    height: auto;
+    padding: 1vw 0vw 1vw 1.5vw;
+
+    float: left;
+}
+
+.PI-Profile-Name {
+    padding: 1vh;
+    padding: 0.5vw;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #010038;
+}
+
+.PI-Profile-Star {
+    padding: 1vh;
+}
+
+.PI-Locate {
+    clear: left;
+}
+
+.PI-Locate-Name, .PI-Locate {
+    padding: 3vh 0vh 3vh 0vh;
+}
+
+.PI-socialmedia-FB,
+.PI-socialmedia-Insta,
+.PI-socialmedia-link,
+.PI-Locate-Name,
+.PI-Locate,
+.PI-Profile-Star,
+.PI-Profile-Name {
+    position: relative;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.PI-socialmedia-FB {
+    clear: left;
+}
+
+.PI-socialmedia-link {
+    padding: 0vw 2vw 0vw 0.5vw;
+}
+
+.PI-ImgProfile {
+    position: relative;
+    width: 9vw;
+    float: left;
+}
+
+.PI-Img {
+    position: relative;
+    width: 9vw;
+    height: auto;
+
+    float: left;
+    margin: 2vh 0vh 0vh 2vh;
+
+}
+
+.PI-Left-title {
+    position: absolute;
+    width: 50%;
+    height: 9vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 2vw;
+
+    top: 0;
+    right: 0;
+}
+
+.PI-Anuncio1, .PI-Anuncio2 {
+    width: 100%;
+    height: auto;
+    margin-top: 2vh;
+}
+
+.PI-Anuncio-Container1{
+    position: relative;
+    float: left;
+}
+.PI-Anuncio-Container1>img{
+    position: relative;
+    width: auto;
+    height: 3.5vh;
+    float: left;
+    
+    margin: 0vh 0.7vh 0vh 0.7vh;
+}
+.PI-Anuncio-Container1>div{
+    position: relative;
+    width: auto;
+    height: 3.5vh;
+    float: left;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+    display: flex;
+    align-items: center;
+}
+.PI-Anuncio-Container1,
+.PI-Anuncio-Container2,
+.PI-Anuncio-Container3 {
+    width: 100%;
+    padding: 0.5vh 0vh 0.5vh 0vh;
+}
+
+.PI-Anuncio-Container2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PI-Price {
+    color: green;
+}
+
+.PI-Anuncio-Img {
+    position: relative;
+    width: 15.3vw;
+    background-color: #373737;
+    border-radius: 1vh;
+}
+
+.PI-Anuncio-Desc {
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2vh;
+
+    color: #8F8F8F;
+}
+
+.PI-Profile-Container2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 2vh 0vh 0vh 2vh;
+}
+
+.PI-Profile-Container2>h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+    color: #415DCC;
+}
+
+.PI-Profile-Container2>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.88rem;
+    line-height: 1.3rem;
+
+    color: #373737;
+    padding: 0.5vh 0vh 3vh 2vh;
+}
+
+.PI-Feedback {
+    width: 100%;
+    padding: 10vh 0vh 10vh 0vh;
+}
+
+.PI-Feedback>p {
+    width: 100%;
+    text-align: center;
+    padding: 2vh 0vh 2vh 0vh;
+}
+
+.PI-FB-Title {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.1rem;
+    display: flex;
+    align-items: center;
+
+    color: #415DCC;
+}
+
+.PI-FB-1, .PI-FB-2, .PI-FB-3 {
+    width: 100%;
+    height: auto;
+
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.PI-FB-left {
+    position: relative;
+    width: 45%;
+
+    float: left;
+}
+
+.PI-FB-left>h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0D0000;
+    margin-top: 3vh;
+}
+
+.PI-FB-left>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #373737;
+}
+
+.PI-FB-right {
+    position: relative;
+    width: 20%;
+    text-align: end;
+    margin-top: 3vh;
+}
+
+.PI-FB-Button {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh 0vh 2vh 0vh;
+}
+
+.PI-FB-Button>button {
+    margin-top: 3vh;
+    padding: 1.5vh 3vh 1.5vh 3vh;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    background: #FFFFFF;
+    border: 1px solid #5A5151;
+    border-radius: 1.5vh;
+    color: #597BFF;
+}
+
+.PI-Contato {
+    display: flex;
+    align-items: center;
+    padding: 10vh 0vh 10vh 0vh;
+    border-bottom: 2px solid #000;
+}
+
+.PI-Contato-Left {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PI-Contato-Left img {
+    width: 22vw;
+}
+
+.PI-Contato-Right {
+    width: 60%;
+    align-items: center;
+
+    padding: 0 2vh 0 0vh;
+}
+
+.PI-Contato h3 {
+    width: 100%;
+
+    background: #fff;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+    color: #415DCC;
+    margin: 7vh 0vh 25vh 0vh;
+
+}
+
+.PI-Contato-Right1, .PI-Contato-Right2, .PI-Contato-Right3, .PI-Contato-Right4 {
+    position: relative;
+    width: 50%;
+    float: left;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    bottom: 90px;
+
+
+    color: #373737;
+}
+
+.PI-Contato-Right p span {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1.28rem;
+    line-height: 2rem;
+
+    color: #373737;
+}
+.PI-NewFeedback{
+    display: flex;
+    justify-content: space-around;
+}
+.PI-NewFeedback>div{
+    width: 80%;
+    
+}
+.PI-NFB-Title{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+}
+.PI-NFB-Title>p{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1.4rem;
+    line-height: 1rem;
+    /* identical to box height */
+    color: #000000;
+    float: left;
+    margin-right: 4vh;
+}
+.PI-NFB-Title>img{
+    position: relative;
+    float: left;
+}
+.PI-NFB-Text{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    text-decoration: none;
+    border-radius: 2vh;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 2vh;
+    font-size: 1rem;
+}
+.PI-NFB-Button{
+    position: relative;
+    width: 15%;
+    height: 5vh;
+    font-size: 0.9rem;
+    border-radius: 2vh;
+    background-color: #415DCC;
+    color: #FFFFFF;
+    font-weight: 400;
+    border: none;
+    margin: 1.5vh 0vh 0vh 85%;
+}
+.PI-NFB-Button:hover{
+    transform: scale(1.1);
+    transition: 0.6s all;
+}

@@ -1,0 +1,59 @@
+.cnpj-infos {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*************
+    TEXTOS
+*************/
+
+.cnpj-infos-textos {
+    position: relative;
+    width: 50%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding-top: 5vh;
+}
+
+.cnpj-infos-textos-titulo {
+    position: relative;
+    width: 100%;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 53px;
+    color: #415DCC;
+}
+
+.cnpj-infos-textos-descri {
+    position: relative;
+    width: 100%;
+    margin-top: 2vh;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: #000;
+}
+
+/**********
+    IMG
+**********/
+
+.cnpj-infos-img {
+    position: relative;
+    width: 30%;
+    height: 50vh;
+}
+
+.cnpj-infos-img img {
+    width: 27vw;
+    height: 45vh;
+}

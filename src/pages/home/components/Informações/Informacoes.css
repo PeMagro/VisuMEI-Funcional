@@ -1,0 +1,111 @@
+.home-informacoes {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    margin-top: 5vh;
+}
+
+/*****************
+    VARIEDADES
+*****************/
+
+.home-informacoes-variedades {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-informacoes-variedades-container {
+    position: relative;
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.home-informacoes-variedades-titulo {
+    position: relative;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.home-informacoes-variedades-descri {
+    position: relative;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 23px;
+    color: #f1f1f1;
+}
+
+/*********************
+    CLASSIFICAÇÕES
+*********************/
+
+.home-informacoes-classificacoes {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.home-informacoes-classificacoes-container {
+    position: relative;
+    width: 70%;
+    padding-left: 10%;
+    height: 35vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.home-informacoes-classificacoes-titulo {
+    position: relative;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 38px;
+    color: #415DCC;
+}
+
+.home-informacoes-classificacoes-descri {
+    position: relative;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 23px;
+    color: #647EE4;
+}
+
+/**********
+    GIF
+**********/
+
+.home-informacoes-gif {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 80vh;
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-informacoes-gif img {
+    position: relative;
+    width: 80%;
+    height: 60vh;
+}

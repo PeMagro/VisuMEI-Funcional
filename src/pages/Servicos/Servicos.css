@@ -1,0 +1,284 @@
+.Servicos {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+}
+
+.Servicos_mei {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Servicos_mei_align {
+    position: relative;
+    width: 70%;
+    /*border: 1px solid black;*/
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Servicos_mei_informacoes_esquerda {
+    position: relative;
+    width: 30%;
+    height: 60vh;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Servicos_mei_img_perfil {
+    position: relative;
+    width: 35%;
+    height: 20vh;
+}
+
+.Servicos_mei_estrelas {
+    position: relative;
+    width: 40%;
+    height: 3vh;
+    /*border: 1px solid black;*/
+    font-family: 'Roboto'sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 4vh;
+    color: #FFBC27;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Servicos_mei_estrelas img {
+    width: 18%;
+    height: 3.2vh;
+}
+
+.Servicos_mei_nome {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #010038;
+    margin-top: 2.5vh;
+}
+
+.Servicos_mei_nome_negocio {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #010038;
+    margin-top: 1vh;
+
+}
+
+.Servicos_mei_local {
+    position: relative;
+    width: 70%;
+    height: 4vh;
+    font-family: 'Roboto'sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.5vh;
+}
+
+.Servicos_mei_local img {
+    width: 12%;
+    height: 3.6vh;
+}
+
+.Servicos_mei_botao {
+    position: relative;
+    width: 50%;
+    height: 6vh;
+    border-radius: 2vw;
+    background-color: #849CFF;
+    color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 2vh;
+}
+
+.Servicos_mei_botao:hover {
+    box-shadow: 3px 3px 2px #4C67D4;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+.Servicos_mei_informacoes_direita {
+    position: relative;
+    width: 68%;
+    height: 60vh;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.Servicos_mei_titulo {
+    position: relative;
+    font-family: 'Inder', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #849CFF;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+
+.Servicos_mei_trabalho_img {
+    position: relative;
+    width: 90%;
+    height: 28vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+
+}
+
+.Servicos_mei_trabalho_img img {
+    width: 33%;
+    height: 27vh;
+}
+
+.Servicos_mei_trabalho_img img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.6s all;
+}
+
+.Servicos_servico2_img {
+    margin-left: 1vw;
+}
+
+.Servicos_mei_tags {
+    position: relative;
+    width: 52%;
+    height: 6vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4b4949;
+    margin-left: 2vw;
+    margin-top: 2.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Servicos_mei_informacoes {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.Sevicos_mei_servico1 {
+    position: relative;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Servicos_mei_servico2 {
+    position: relative;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1vw;
+}
+
+.Servicos_mei_preco {
+    position: relative;
+    font-family: 'Inder', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #00AC11;
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+
+.Servicos_mei_nome_servico {
+    position: relative;
+    font-family: 'Inder', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #343434;
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+
+.Servicos_mei_tags ul {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Servicos_mei_sociais {
+    position: relative;
+    width: 65%;
+    height: 8vh;
+    font-family: 'Inder', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #5C5C5C;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 1vw;
+}
+
+.Servicos_mei_sociais img {
+    width: 13%;
+    height: 5vh;
+}
+
+.Servicos_mei_sociais p {
+    margin-top: 1vh;
+    padding-right: 1vw;
+}
+
+.Servicos_mei_align2 {
+    position: relative;
+    width: 70%;
+    /*border: 1px solid black;*/
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+.Servicos_mei_botao>a{
+    color: #F5F5F5;
+    font-weight: 500;
+    padding: 1.5vh 6vh 1.5vh 6vh;
+}

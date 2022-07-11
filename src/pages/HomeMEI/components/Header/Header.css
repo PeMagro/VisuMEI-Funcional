@@ -1,0 +1,210 @@
+.homeMEI-header {
+    position: relative;
+    width: 100%;
+    height: 63vh;
+}
+
+/***********
+    MENU
+***********/
+
+.homeMEI-header-menu {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homeMEI-header-menu-logo {
+    position: relative;
+    width: 25%;
+    height: 10vh;
+    padding-left: 5%;
+}
+
+.homeMEI-header-menu-logo img {
+    cursor: pointer;
+}
+
+/***********
+    LINKS
+***********/
+
+.homeMEI-header-menu-links {
+    position: relative;
+    width: 60%;
+    height: 20vh;
+}
+
+.homeMEI-header-menu-links-nav {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links-normal {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.header-links-atual {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #415DCC;
+    cursor: pointer;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.header-links-login {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #849CFF;
+    cursor: pointer;
+    padding: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+/****************
+    CONTEUDO
+****************/
+
+.homeMEI-header-conteudo {
+    position: relative;
+    width: 100%;
+    height: 43vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homeMEI-header-conteudo-img {
+    position: relative;
+    width: 40%;
+    height: 43vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeMEI-header-conteudo-textos {
+    position: relative;
+    width: 33%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/******************
+    TEXTOS CIMA
+******************/
+
+.homeMEI-header-conteudo-textos-cima {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.homeMEI-header-conteudo-textos-cima-titulo {
+    position: relative;
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 53px;
+    color: #0F3AE4;
+}
+
+.homeMEI-header-conteudo-textos-cima-descri {
+    position: relative;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #fff;
+}
+
+/*******************
+    TEXTOS BAIXO
+*******************/
+
+.homeMEI-header-conteudo-textos-baixo {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeMEI-header-conteudo-textos-baixo-txt1 {
+    position: relative;
+    width: 45%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    background: #0F3AE4;
+    border-radius: 20px;
+    padding: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.homeMEI-header-conteudo-textos-baixo-txt1 a {
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+}
+
+.homeMEI-header-conteudo-textos-baixo-txt2 {
+    position: relative;
+    width: 45%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 19px;
+    text-align: center;
+    color: #415DCC;
+    background: #fff;
+    border-radius: 20px;
+    padding: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.homeMEI-header-conteudo-textos-baixo-txt2 a {
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 19px;
+    text-align: center;
+    color: #415DCC;
+}

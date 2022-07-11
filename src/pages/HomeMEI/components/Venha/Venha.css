@@ -1,0 +1,65 @@
+.homeMEI-venha {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-top: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/***************
+    CONTEUDO
+***************/
+
+.homeMEI-venha-conteudo {
+    position: relative;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.homeMEI-venha-conteudo-titulo {
+    position: relative;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: #0F3AE4;
+}
+
+.homeMEI-venha-conteudo-descri {
+    position: relative;
+    width: 80%;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 36px;
+    color: #fff;
+}
+
+.homeMEI-venha-conteudo-btn {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 21px;
+    color: #fff;
+    background: #0F3AE4;
+    border-radius: 20px;
+    padding: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: 0;
+}
+
+/**********
+    IMG
+**********/
+
+.homeMEI-venha-img {
+    position: relative;
+    width: 30%;
+    height: 50vh;
+}

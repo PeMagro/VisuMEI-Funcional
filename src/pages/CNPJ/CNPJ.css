@@ -1,0 +1,29 @@
+.cnpj {
+    position: relative;
+    width: 100%;
+    height: 480vh;
+    background-image: url('https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/22971ab1c5d9673733164ae618b5d174814cd96c/CNPJ/bg-CNPJ.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-cnpj {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+
+.main-cnpj {
+    position: relative;
+    width: 100%;
+    height: 415vh;
+}
+
+.footer-cnpj {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    background-image: url('https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/5097a7183d7b92a043001e7efc2d61bc593a05b5/home/bg-footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

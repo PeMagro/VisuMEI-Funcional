@@ -1,0 +1,77 @@
+.Como_funcionaM_cnpj{
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 14vh;
+    
+}
+.Como_funcionaM_cnpj_align{
+    position: relative;
+    width: 75%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 8vh;
+    padding-left: 4vw;
+    
+}
+.Como_funcionaM_cnpj_titulo{
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #141313;
+    text-align: center;
+}
+.Como_funcionaM_cnpj_li{
+    color: #0F3AE4;
+    margin-left: 1.4vw;
+    margin-top: 2.5vh;
+    line-height: 30px;
+}
+.Como_funcionaM_cnpj_li p{
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:  #545454;
+}
+
+.Como_funcionaM_cnpj_img{
+    width: 32%;
+    height: 50vh;
+    
+}
+.Como_funcionaM_cnpj_buttonAlign{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Como_funcionaM_cnpj_button{
+    position: relative;
+    width: 25%;
+    height: 6vh;
+    background-color: #415DCC;
+    border-radius: 0.9vw;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #F5F5F5;
+    margin-top: 2vh;
+    
+}
+.Como_funcionaM_cnpj_button:hover{
+    box-shadow: 3px 3px 2px #4C67D4;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+.Como_funcionaM_cnpj_button>a{
+    color: #F5F5F5;
+    font-weight: 500;
+    padding: 1.5vh 6vh 1.5vh 6vh;
+}

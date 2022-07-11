@@ -1,0 +1,243 @@
+.Quem_somos {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url(https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/eca9ce57b103a0c98368a2495471963e362d49b3/QuemSomos/Quem_somos_fundo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Quem_somos_header {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background-image: url(https://raw.githubusercontent.com/EduardoOliveiraDev/ImagesVisuMEI/eca9ce57b103a0c98368a2495471963e362d49b3/QuemSomos/Quem_somos_oque_header.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Quem_somos_logo_header {
+    position: relative;
+    width: 100%;
+    height: 9vh;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+.Quem_somos_nav_header {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 2vw;
+}
+
+.Quem_somos_link_2 {
+    position: relative;
+    width: 40%;
+    padding: 0 1vw 0 1vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Quem_somos_link_2 a {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.Quem_somos_link_2 a:hover {
+    color: #0F3AE4;
+}
+
+.Quem_somos_link {
+    position: relative;
+    width: 35%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Quem_somos_link a {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.Quem_somos_link a:hover {
+    color: #0F3AE4;
+}
+
+.Quem_somos_login {
+    position: relative;
+    width: 35%;
+    height: 6vh;
+    background-color: #F1F1F1;
+    text-align: center;
+    border-radius: 1.2vw;
+    margin-top: 4.9vh;
+}
+
+.Quem_somos_login a {
+    font-family: 'Inter', sans-serif;
+    line-height: 36px;
+    font-weight: 700;
+    color: #849CFF;
+}
+
+.Quem_somos_login:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.6s all;
+}
+
+.Quem_somos_oque {
+    position: relative;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+.Quem_somos_oque_titulo {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+    font-size: 3rem;
+    color: #0F3AE4;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 14vh;
+}
+
+.Quem_somos_oque_align {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Quem_somos_oque_text {
+    position: relative;
+    width: 55%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: justify;
+    line-height: 50px;
+    margin-top: 28vh;
+    margin-left: 9.4vw;
+}
+
+.Quem_somos_oque_img {
+    position: relative;
+    width: 30%;
+    margin-top: 23vh;
+}
+
+.Quem_somos_criacao {
+    position: relative;
+    width: 100%;
+}
+
+.Quem_somos_criacao_titulo {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+    font-size: 3rem;
+    color: #0F3AE4;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20vh;
+}
+
+.Quem_somos_criacao_align {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Quem_somos_criacao_text {
+    position: relative;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #010038;
+    text-align: justify;
+    line-height: 50px;
+    margin-top: 12vh;
+    margin-left: 9.4vw;
+}
+
+.Quem_somos_criacao_integrantes1 {
+    position: relative;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 18vh;
+    padding-left: 2.3vw;
+}
+
+.Quem_somos_criacao_integrantes1 img {
+    width: 87%;
+}
+
+.Criacao_integrante {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Criacao_integrante p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+
+.Quem_somos_criacao_integrantes2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12vh;
+
+}
+
+.Quem_somos_criacao_integrantes2 img {
+    width: 83%;
+}
+
+.Quem_criacao_img {
+    width: 100%;
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Quem_criacao_img img {
+    width: 50%;
+}

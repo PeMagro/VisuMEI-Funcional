@@ -1,0 +1,77 @@
+.homeMEI-informacoes {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-top: 35vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*************
+    TEXTOS
+*************/
+
+.homeMEI-informacoes-textos {
+    position: relative;
+    width: 55%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 5%;
+}
+
+.homeMEI-informacoes-textos-txt1 {
+    position: relative;
+    width: 45%;
+    height: 5vh;
+    margin-left: 22.5%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #000000;
+}
+
+.homeMEI-informacoes-textos-txt2 {
+    position: relative;
+    width: 50%;
+    height: 5vh;
+    margin-left: 15%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #000000;
+}
+
+.homeMEI-informacoes-textos-txt3 {
+    position: relative;
+    width: 60%;
+    height: 5vh;
+    margin-left: 12.5%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #000000;
+}
+
+/**********
+    IMG
+**********/
+
+.homeMEI-informacoes-img {
+    position: relative;
+    width: 40%;
+    height: 60vh;
+    padding-left: 5%;
+}
+
+.homeMEI-informacoes-img img {
+    width: 35vw;
+    height: 55vh;
+}

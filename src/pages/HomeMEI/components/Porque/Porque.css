@@ -1,0 +1,108 @@
+.homeMEI-porque {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-top: 35vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/**********
+    IMG
+**********/
+
+.homeMEI-porque-img {
+    position: relative;
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+/***************
+    CONTEUDO
+***************/
+
+.homeMEI-porque-conteudo {
+    position: relative;
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 5vh;
+    padding-left: 5%;
+}
+
+.homeMEI-porque-conteudo-titulo {
+    position: relative;
+    width: 80%;
+    height: 15vh;
+    padding-top: 5vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+/**************
+    PARTE 1
+**************/
+
+.homeMEI-porque-conteudo-parte1 {
+    position: relative;
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homeMEI-porque-conteudo-parte1 img {
+    position: relative;
+    width: 30%;
+}
+
+.homeMEI-porque-conteudo-parte1 p {
+    position: relative;
+    width: 50%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 23px;
+    color: #fff;
+}
+
+/**************
+    PARTE 2
+**************/
+
+.homeMEI-porque-conteudo-parte2 {
+    position: relative;
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homeMEI-porque-conteudo-parte2 p {
+    position: relative;
+    width: 50%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 23px;
+    color: #fff;
+}
+
+.homeMEI-porque-conteudo-parte2 img {
+    position: relative;
+    width: 30%;
+}

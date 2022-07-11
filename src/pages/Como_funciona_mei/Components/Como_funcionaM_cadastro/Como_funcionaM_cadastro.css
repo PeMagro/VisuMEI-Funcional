@@ -1,0 +1,60 @@
+.Como_funcionaM_cadastro{
+    position: relative;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25vh;
+}
+.Como_funcionaM_cadastro img{
+    position: relative;
+    width: 40%;
+}
+.Como_funcionaM_cadastro_align{
+    position: relative;
+    width: 50%;
+    height: 27vh;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 14vh;
+}
+.Como_funcionaM_cadastro_titulo{
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #010038;
+}
+.Como_funcionaM_cadastro_text{
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:  #545454;
+}
+.Como_funcionaM_cadastro_button{
+    position: relative;
+    width: 25%;
+    height: 6vh;
+    background-color: #415DCC;
+    border-radius: 0.9vw;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #F5F5F5;
+    margin-top: 2vh;
+}
+.Como_funcionaM_cadastro_button:hover{
+    box-shadow: 3px 3px 2px #4C67D4;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+.Como_funcionaM_cadastro_button>a{
+    position: relative;    
+    width: 100%;
+    color: #F5F5F5;
+    font-weight: 500;
+    padding: 1vh 3vh 1vh 3vh;
+}

@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Produtos_ContainerProdutos {
+    background-color: #F5F5F5;
+}
+
+.Produtos_ContainerPb {
+    position: relative;
+    width: 57.43vw;
+    min-height: 40vh;
+    margin: auto;
+    margin-top: 3.6vh;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.Produtos_Profiles {
+    position: relative;
+    width: 19.8vw;
+    min-height: 10vh;
+    background: #E6EBFF;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+
+    display: flex;
+    align-items: center;
+
+    float: left;
+}
+
+.Produtos_Center {
+    height: auto;
+}
+
+.Produtos_Classification, .Produtos_Name, .Produtos_Profession, .Produtos_Locate, .Produtos_ViewMore, .Produtos_img {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Produtos_img {
+    margin: 0 0 1vh 0;
+}
+
+.Produtos_img>img {
+    border-radius: 100%;
+    width: 6.5vw;
+}
+
+.Produtos_Classification {
+    position: relative;
+}
+
+.Produtos_estrela {
+    width: 3vh;
+}
+
+.Produtos_Name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.35rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0.3vh 0 0.4vh 0;
+
+    color: #010038;
+}
+
+.Produtos_Profession {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #010038;
+
+    margin-top: 0.3vh;
+}
+
+.Produtos_Locate {
+    position: relative;
+    width: 100%;
+
+    align-items: center;
+    margin: 0.5vh 0 1vh 0;
+
+    float: left;
+}
+
+.Produtos_Locate>div>p {
+    position: relative;
+    width: auto;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+
+    color: #010038;
+
+}
+
+.Produtos_imgLocate {
+    position: relative;
+    width: 3.5vh;
+
+
+    float: left;
+}
+
+.Produtos_ViewMore {
+    width: 10.625vw;
+    height: 4.8vh;
+    margin: auto;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    background: #849CFF;
+    border-radius: 6.25rem;
+    cursor: pointer;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+    border: none;
+
+
+}
+
+.Produtos_Publi {
+    position: relative;
+    width: 36.18vw;
+    min-height: 10vh;
+
+    background: #E6EBFF;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+
+
+    float: left;
+}
+
+.Produtos_PublicTitle {
+    position: relative;
+    width: 100%;
+    height: 8.5vh;
+
+    font-family: 'Inder', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #333333;
+    padding-left: 1vw;
+}
+
+.Produtos_ContainerAnuncio {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.Produtos_ImageAnuncio {
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin: 2.5%;
+}
+
+.Produtos_anuncio1, .Produtos_anuncio2, .Produtos_anuncio3, .Produtos_anuncio4 {
+    position: relative;
+    width: 10vw;
+    min-height: 1vh;
+
+
+
+    float: left;
+}
+
+.Produtos_anuncio1:hover, .Produtos_anuncio2:hover, .Produtos_anuncio3:hover, .Produtos_anuncio4:hover {
+
+    transition: 0.6s all;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.Produtos_AnuncioPrice, .Produtos_AnuncioTitle, .Produtos_AnuncioDesc {
+    width: 100%;
+    margin: 0;
+}
+
+.Produtos_AnuncioPrice {
+    font-family: 'Inder', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #00AC11;
+    padding-left: 0.5vw;
+    margin-bottom: 0.3vh;
+}
+
+.Produtos_AnuncioTitle {
+    font-family: 'Inder', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.85rem;
+    line-height: 0.75rem;
+    display: flex;
+    align-items: center;
+
+    color: #343434;
+    margin-bottom: 0.6vh;
+    margin: 0 0 2.5% 2.5%;
+}
+
+.Produtos_AnuncioDesc {
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 0.75rem;
+    display: flex;
+    align-items: center;
+
+    color: #5e5e5e;
+    margin: 3%;
+}
+
+.Produtos_SocialMedias {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+
+    font-family: 'Inder', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #5C5C5C;
+
+    margin: 0.5vh 0 0.5vh 0;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.Produtos_Instagram, .Produtos_Facebook {
+    position: relative;
+    width: 45%;
+    height: 6vh;
+    background-color: none;
+
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.Produtos_Instagram:hover, .Produtos_Facebook:hover {
+    background-color: hsla(0, 0%, 36%, 0.4);
+    border-radius: 3rem;
+    transition: 0.6s all;
+}
+
+.ImageIcon {
+    width: 3.5vh;
+    height: 3.5vh;
+    margin-right: 0.5vw;
+}

@@ -1,0 +1,40 @@
+.Como_funcionaM_dashboard{
+    position: relative;
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20vh;
+}
+.Como_funcionaM_dashboard_img{
+    position: relative;
+    width: 32%;
+    height: 60vh;
+}
+
+.Como_funcionaM_dashboard_align{
+    position: relative;
+    width: 60%;
+    height: 25vh;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 16vh;
+    margin-left: 10vw;
+}
+.Como_funcionaM_dashboard_titulo{
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #010038;
+    text-align: center;
+}
+.Como_funcionaM_dashboard_text{
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:  #545454;
+}

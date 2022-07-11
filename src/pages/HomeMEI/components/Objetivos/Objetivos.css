@@ -1,0 +1,57 @@
+.homeMEI-objetivos {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-top: 35vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/**********
+    IMG
+**********/
+
+.homeMEI-objetivos-img {
+    position: relative;
+    width: 24vw;
+    height: 50vh;
+}
+
+/*************
+    TEXTOS
+*************/
+
+.homeMEI-objetivos-textos {
+    position: relative;
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeMEI-objetivos-textos-titulo {
+    position: relative;
+    width: 60%;
+    height: 15vh;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 52px;
+    color: #415DCC;
+}
+
+.homeMEI-objetivos-textos-descri {
+    position: relative;
+    width: 80%;
+    height: 15vh;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #000;
+    padding-top: 2vh;
+}

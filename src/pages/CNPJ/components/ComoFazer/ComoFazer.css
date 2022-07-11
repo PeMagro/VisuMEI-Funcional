@@ -1,0 +1,69 @@
+.cnpj-comofazer {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cnpj-comofazer-titulo {
+    position: relative;
+    height: 10vh;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 63px;
+    color: #415DCC;
+}
+
+.cnpj-comofazer-btn {
+    position: relative;
+    padding: 1vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    border: 0;
+    border-radius: 20px;
+    background: #415DCC;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 23px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.cnpj-comofazer-btn a {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 23px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+/**************
+    TOPICOS
+**************/
+
+.cnpj-comofazer-topicos {
+    position: relative;
+    width: 55%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.cnpj-comofazer-topicos p {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: #000;
+}
+
+.cnpj-comofazer-topicos span {
+    color: #415DCC;
+    font-weight: 600;
+}

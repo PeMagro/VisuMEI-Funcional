@@ -1,0 +1,74 @@
+.cnpj-beneficios {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*************
+    TEXTOS
+*************/
+
+.cnpj-beneficios-textos {
+    position: relative;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cnpj-beneficios-textos-titulo {
+    position: relative;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 63px;
+    color: #415DCC;
+}
+
+/**************
+    TOPICOS
+**************/
+
+.cnpj-beneficios-textos-topicos {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.cnpj-beneficios-textos-topicos p {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #000;
+}
+
+.cnpj-beneficios-textos-topicos span {
+    position: relative;
+    color: #415DCC;
+}
+
+/**********
+    IMG
+**********/
+
+.cnpj-beneficios-img {
+    position: relative;
+    width: 30%;
+    height: 70vh;
+}
+
+.cnpj-beneficios-img img {
+    width: 37vw;
+    height: 80vh;
+}

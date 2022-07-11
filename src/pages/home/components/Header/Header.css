@@ -1,0 +1,181 @@
+.home-header {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+/***********
+    MENU
+***********/
+
+.home-header-topo {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-header-topo-logo {
+    position: relative;
+    width: 25%;
+    height: 10vh;
+    padding-left: 5%;
+}
+
+.home-header-topo-logo img {
+    cursor: pointer;
+}
+
+/***********
+    LINKS
+***********/
+
+.home-header-topo-links {
+    position: relative;
+    width: 60%;
+    height: 20vh;
+}
+
+.home-header-topo-links-nav {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links-normal {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.header-links-login {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #849CFF;
+    cursor: pointer;
+    padding: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+/***************
+    CONTEUDO
+***************/
+
+.home-header-conteudo {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-header-conteudo-textos {
+    position: relative;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-header-conteudo-img {
+    position: relative;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.home-header-conteudo-img img {
+    width: 35vw;
+    height: 60vh;
+}
+
+.home-header-conteudo-textos-cima {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.home-header-conteudo-textos-cima-titulo {
+    position: relative;
+    width: 85%;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 34px;
+    color: #fff;
+    text-align: left;
+}
+
+.home-header-conteudo-textos-baixo {
+    position: relative;
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-header-conteudo-textos-baixo-txt1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #849CFF;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.home-header-conteudo-textos-baixo-txt1 a {
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #849CFF;
+    text-align: center;
+}
+
+.home-header-conteudo-textos-baixo-txt2 {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #0F3AE4;
+    text-align: center;
+}
+
+.home-header-conteudo-textos-baixo-txt2 a {
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #0F3AE4;
+    text-align: center;
+}
