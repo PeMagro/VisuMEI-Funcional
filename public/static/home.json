@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/WkcNWwT/classificacao-perfil-img.png",
+        "nome": "Juliana Souza",
+        "emprego": "Doceria da Juju",
+        "classi": "https://i.ibb.co/WVL25mL/5estrelas.png",
+        "quantidade": "53",
+        "descri": "Meu nome é Juliana e trabalho em casa fazendo bolos e tortas de vários tipos. Faço bolos individuais, para pronta entrega e também para festas, nesse caso somente com encomenda uma semana antes..."
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/B37pSQQ/cara.png",
+        "nome": "Filipe Almeida",
+        "emprego": "Cabeleireiro",
+        "classi": "https://i.ibb.co/WVL25mL/5estrelas.png",
+        "quantidade": "48",
+        "descri": "Meu nome é Filipe e sou cabeleleiro há 5 anos. Faço cortes masculinos e femininos dos tipos: Long bob, Blunt cut, Corte médio com franjinha, Pixie cut, Assimétrico, Repicado e Tapper Fade..."
+    },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/WkcNWwT/classificacao-perfil-img.png",
+        "nome": "Gabriela Rodrigues",
+        "emprego": "Desenvolvedora BackEnd",
+        "classi": "https://i.ibb.co/WVL25mL/5estrelas.png",
+        "quantidade": "26",
+        "descri": "Ola, eu me chamo Gabriela e sou programadora há 7 anos. Possuo conhecimentos aprofundados em Java e MySQL, porém também tenho conhecimento em Python e PHP..."
+    },
+    {
+        "id": "4",
+        "img": "https://i.ibb.co/B37pSQQ/cara.png",
+        "nome": "Marcos Bassani",
+        "emprego": "Churrasqueiro",
+        "classi": "https://i.ibb.co/WVL25mL/5estrelas.png",
+        "quantidade": "72",
+        "descri": "Olá, me chamo Marcos e faço churrasco em eventos há 9 anos, já participei de mais de 80 eventos e sou apaixonado em cozinhar, se quiser conhecer um pouco mais do meu serviço..."
+    }
+]
