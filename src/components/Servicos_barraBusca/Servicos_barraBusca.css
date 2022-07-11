@@ -1,0 +1,55 @@
+.Servicos_Barra {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+
+
+}
+
+.Servicos_Barra_align {
+    position: relative;
+    width: 70%;
+    height: 6.5vh;
+    border-radius: 0.7vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 2vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.Servicos_barra_pesquisar {
+    position: relative;
+    width: 90%;
+    height: 6.5vh;
+    margin-left: 1vw;
+    border: none;
+    font-size: 1.2rem;
+
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: 1.2rem;
+}
+
+.Servicos_barra_pesquisar[type="text"] {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Servicos_lupa_img {
+    position: relative;
+    width: 3%;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+}
